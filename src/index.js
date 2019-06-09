@@ -25,7 +25,7 @@ const startServer = async () => {
 
     server.applyMiddleware({ app }); // app is from an existing express app
 
-    await mongoose.connect('mongodb+srv://mongodbgeeza:Casper20182018@cluster0-h8ga2.mongodb.net/test?retryWrites=true&w=majority', {useNewUrlParser: true});
+    await mongoose.connect('mongodb+srv://mongodbgeeza:zgWVjKlPPZsPIkx5@cluster0-h8ga2.mongodb.net/test?retryWrites=true&w=majority', {useNewUrlParser: true});
 
 
     app.listen({ port: 4000 }, () =>
